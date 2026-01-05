@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir Form Fill Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <center>
+    <h1>S.I.R Form Fill Up</h1>
+    
+    <hr>
+    <form action="post">
+        <div>
+            
+            <label for="Name">Name</label>
+            <div>
+            <input type="text" id="Name" name="Name" placeholder="Enter your name" autofocus>
+            </div>
+        </div>
+        <div>
+            <label for="Age">Age</label>
+            <div>
+            <input type="date" name="Age" id="Age">
+            </div>
+        </div>
+        <div>
+            <label for="Gender">Gender</label>
+            <div>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            </div>
+        </div>
+        <div>
+            <label for="Aadhar No">Aadhar No</label>
+            <div>
+            <input type="text" id="Aadhar No" name="Aadhar No" placeholder="Enter Aadhar No">
+            </div>
+        </div>
+        <div>
+            <label for="Phone No">Phone No</label>
+            <div>
+            <input type="tel" id="Phone No" name="Phone No" placeholder="Your 10 digit number">
+            </div>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <div>
+            <input type="email" id="email" name="email" placeholder="Enter email address">
+            </div>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <div>
+            <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]+">
+            </div>
+        </div>
+        <div>
+            <label for="Father's Name">Father's Name</label>
+            <div>
+            <input type="text" id="Father's Name" name="Father's Name" placeholder="Enter Faather's Name">
+            </div>
+        </div>
+        <div>
+            <label for="Father's Voter Id">Father's Voter Id</label>
+            <div>
+            <input type="text" id="Father's Voter Id" name="Father's Voter Id" placeholder="Enter Father's Voter Id No">
+            </div>
+        </div>
+        <div>
+            <label for="Mother's Name">Mother's Name</label>
+            <div>
+            <input type="text" name="Mother's Name" id="Mother's Name" placeholder="Enter Mother's Name">
+            </div>
+        </div>
+        <div>
+            <label for="Mother's Voter Id">Mother's Voter Id</label>
+            <div>
+            <input type="text" name="Mother's Voter Id" id="Mother's Voter Id" placeholder="Enter Mother's Voter Id No">
+            </div>
+        </div>
+        <div>
+            <label for="documents">Select your ID document</label>
+            <select name="documents" id="documents"> 
+            <option value="aadhar">Aadhar</option>
+            <option value="voter id">Voter Id</option>
+            <option value="pan card">PAN Card</option>
+            <option value="licence">Licence</option>
+            </select>
+        </div>
+        <div>
+            <label for="Attach Your Ducument">Attach Your Document</label>
+        </div>
+        <div>
+            <input type="file">
+        </div>
+        <div>
+            <input type="checkbox" name="declaration" id="declaration" value="Yes">
+            <label for="declaration">I hereby declare that all the information given above are true to the best of my knowledge and belief and nothing has been consealed therein.</label>
+        </div>
+        <div>
+            <caption>
+                Terms of condition: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis similique quibusdam tempora! Perferendis veniam, animi nulla laborum magnam adipisci tenetur debitis sapiente dolorem quia dolore suscipit. Quos explicabo deleniti sed.
+            </caption> 
+        </div>
+        <div>
+            <label for="I Accept">I Accept</label>
+            <input type="radio" name="Agreement" id="I Accept">
+            <label for="I don't accept">I Don't Accept</label>
+            <input type="radio" name="Agreement" id="I don't accept">
+        </div>
+        <hr>
+        <div>
+            <label for="comment">Comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="75" rows="5"></textarea>
+        </div>
+        
+        <br>
+        <button>Submit</button>
+    </form>
+    </center>
+</body>
+
+</html>
